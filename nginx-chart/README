@@ -1,0 +1,13 @@
+helm lint .
+
+helm template .
+
+helm install nginx . --dry-run
+
+helm install nginx .
+
+helm ls
+
+helm upgrade nginx .
+
+helm uninstall nginx
