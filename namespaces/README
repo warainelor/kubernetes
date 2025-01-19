@@ -1,0 +1,6 @@
+kubectl apply -f namespace.yaml
+kubectl apply -f resource-quota.yaml
+
+kubectl get namespaces
+
+kubectl delete namespace <namespace>
