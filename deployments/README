@@ -5,5 +5,6 @@ kubectl get pods
 kubectl delete -f django-deployment.yaml
 
 ORDER:
+0. ConfigMap
 1. Deployment
 2. Service
