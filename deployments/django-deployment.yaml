@@ -22,3 +22,13 @@ spec:
         image: django-app:1.0.0
         ports:
         - containerPort: 80
+        envFrom:
+        - configMapRef:
+            name: django-configmap-v1.0
+        resources:
+          requests:
+            memory: "16Mi"
+            cpu: "50m"
+          limits:
+            memory: "128Mi"
+            cpu: "100m"
