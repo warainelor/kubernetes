@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: django-configmap-v1.0
 data:
-  
+  text: "Hello, world"

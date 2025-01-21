@@ -1,0 +1,6 @@
+helm install django-release django-chart
+
+helm list --namespace <namespace>
+
+helm uninstall django-release
+
